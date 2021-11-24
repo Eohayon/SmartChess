@@ -8,4 +8,4 @@ SmartChess is a Bluetooth enabled, smart Chessboard. SmartChess utilizes an inte
 
 Of my friends and family, I am amongst few individuals that play chess. Many people I have spoken to don’t play chess because they find the game difficult to understand or they forget the rules. I decided to tackle this issue by building a smart Chessboard that would make the game easier, and more intuitive for those that find chess to be intimidating.
 
-<alt="Top View" src="https://user-images.githubusercontent.com/70774138/143196440-eca4c59f-0c9b-4ec1-bcc7-f69ce0997a79.png" width="20%" height="20%">
+<img src="https://user-images.githubusercontent.com/70774138/143196440-eca4c59f-0c9b-4ec1-bcc7-f69ce0997a79.png" width="50%" height="50%">
