@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9208D024E215C8005BFBE5 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9208CF24E21469005BFBE5 /* Quicksand-VariableFont_wght.ttf */; };
+		9A9208D224E21F6C005BFBE5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9208D124E21F6C005BFBE5 /* BoardView.swift */; };
+		9A9208D424E22F4F005BFBE5 /* ChessPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9208D324E22F4F005BFBE5 /* ChessPiece.swift */; };
+		9A9208D624E22FC0005BFBE5 /* ChessEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9208D524E22FC0005BFBE5 /* ChessEngine.swift */; };
+		9AA6C79724F4726C002AB5A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6C79624F4726C002AB5A1 /* HomeViewController.swift */; };
+		9AC00E9824DA4119008C1FA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC00E9724DA4119008C1FA8 /* AppDelegate.swift */; };
+		9AC00E9A24DA4119008C1FA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC00E9924DA4119008C1FA8 /* SceneDelegate.swift */; };
+		9AC00E9C24DA4119008C1FA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC00E9B24DA4119008C1FA8 /* ViewController.swift */; };
+		9AC00E9F24DA4119008C1FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC00E9D24DA4119008C1FA8 /* Main.storyboard */; };
+		9AC00EA124DA411A008C1FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC00EA024DA411A008C1FA8 /* Assets.xcassets */; };
+		9AC00EA424DA411A008C1FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC00EA224DA411A008C1FA8 /* LaunchScreen.storyboard */; };
+		9AC00EAF24DA411A008C1FA8 /* ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC00EAE24DA411A008C1FA8 /* ChessTests.swift */; };
+		9AC00EBA24DA411A008C1FA8 /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC00EB924DA411A008C1FA8 /* ChessUITests.swift */; };
+		E9240FDE24F6C6AF00DC0839 /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9240FDD24F6C6AF00DC0839 /* BTManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC00EAB24DA411A008C1FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC00E8C24DA4119008C1FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC00E9324DA4119008C1FA8;
+			remoteInfo = Chess;
+		};
+		9AC00EB624DA411A008C1FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC00E8C24DA4119008C1FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC00E9324DA4119008C1FA8;
+			remoteInfo = Chess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9208CF24E21469005BFBE5 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9A9208D124E21F6C005BFBE5 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		9A9208D324E22F4F005BFBE5 /* ChessPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessPiece.swift; sourceTree = "<group>"; };
+		9A9208D524E22FC0005BFBE5 /* ChessEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessEngine.swift; sourceTree = "<group>"; };
+		9AA6C79624F4726C002AB5A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9AC00E9424DA4119008C1FA8 /* SmartChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC00E9724DA4119008C1FA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AC00E9924DA4119008C1FA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AC00E9B24DA4119008C1FA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC00E9E24DA4119008C1FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC00EA024DA411A008C1FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC00EA324DA411A008C1FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC00EA524DA411A008C1FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC00EAA24DA411A008C1FA8 /* ChessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC00EAE24DA411A008C1FA8 /* ChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessTests.swift; sourceTree = "<group>"; };
+		9AC00EB024DA411A008C1FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC00EB524DA411A008C1FA8 /* ChessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC00EB924DA411A008C1FA8 /* ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITests.swift; sourceTree = "<group>"; };
+		9AC00EBB24DA411A008C1FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9240FDD24F6C6AF00DC0839 /* BTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC00E9124DA4119008C1FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EA724DA411A008C1FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EB224DA411A008C1FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9208CA24E212E6005BFBE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A9208CE24E21443005BFBE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A9208CF24E21469005BFBE5 /* Quicksand-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9AC00E8B24DA4119008C1FA8 = {
+			isa = PBXGroup;
+			children = (
+				9A9208CE24E21443005BFBE5 /* Fonts */,
+				9AC00E9624DA4119008C1FA8 /* Chess */,
+				9AC00EAD24DA411A008C1FA8 /* ChessTests */,
+				9AC00EB824DA411A008C1FA8 /* ChessUITests */,
+				9AC00E9524DA4119008C1FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC00E9524DA4119008C1FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC00E9424DA4119008C1FA8 /* SmartChess.app */,
+				9AC00EAA24DA411A008C1FA8 /* ChessAppTests.xctest */,
+				9AC00EB524DA411A008C1FA8 /* ChessAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC00E9624DA4119008C1FA8 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				9A9208CA24E212E6005BFBE5 /* Helpers */,
+				9AC00E9724DA4119008C1FA8 /* AppDelegate.swift */,
+				9AC00E9924DA4119008C1FA8 /* SceneDelegate.swift */,
+				9A9208D324E22F4F005BFBE5 /* ChessPiece.swift */,
+				9A9208D524E22FC0005BFBE5 /* ChessEngine.swift */,
+				9AC00E9B24DA4119008C1FA8 /* ViewController.swift */,
+				E9240FDD24F6C6AF00DC0839 /* BTManager.swift */,
+				9AA6C79624F4726C002AB5A1 /* HomeViewController.swift */,
+				9A9208D124E21F6C005BFBE5 /* BoardView.swift */,
+				9AC00E9D24DA4119008C1FA8 /* Main.storyboard */,
+				9AC00EA224DA411A008C1FA8 /* LaunchScreen.storyboard */,
+				9AC00EA524DA411A008C1FA8 /* Info.plist */,
+				9AC00EA024DA411A008C1FA8 /* Assets.xcassets */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
+		9AC00EAD24DA411A008C1FA8 /* ChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC00EAE24DA411A008C1FA8 /* ChessTests.swift */,
+				9AC00EB024DA411A008C1FA8 /* Info.plist */,
+			);
+			path = ChessTests;
+			sourceTree = "<group>";
+		};
+		9AC00EB824DA411A008C1FA8 /* ChessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC00EB924DA411A008C1FA8 /* ChessUITests.swift */,
+				9AC00EBB24DA411A008C1FA8 /* Info.plist */,
+			);
+			path = ChessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC00E9324DA4119008C1FA8 /* ChessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC00EBE24DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessApp" */;
+			buildPhases = (
+				9AC00E9024DA4119008C1FA8 /* Sources */,
+				9AC00E9124DA4119008C1FA8 /* Frameworks */,
+				9AC00E9224DA4119008C1FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessApp;
+			productName = Chess;
+			productReference = 9AC00E9424DA4119008C1FA8 /* SmartChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC00EA924DA411A008C1FA8 /* ChessAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC00EC124DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessAppTests" */;
+			buildPhases = (
+				9AC00EA624DA411A008C1FA8 /* Sources */,
+				9AC00EA724DA411A008C1FA8 /* Frameworks */,
+				9AC00EA824DA411A008C1FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC00EAC24DA411A008C1FA8 /* PBXTargetDependency */,
+			);
+			name = ChessAppTests;
+			productName = ChessTests;
+			productReference = 9AC00EAA24DA411A008C1FA8 /* ChessAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AC00EB424DA411A008C1FA8 /* ChessAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC00EC424DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessAppUITests" */;
+			buildPhases = (
+				9AC00EB124DA411A008C1FA8 /* Sources */,
+				9AC00EB224DA411A008C1FA8 /* Frameworks */,
+				9AC00EB324DA411A008C1FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC00EB724DA411A008C1FA8 /* PBXTargetDependency */,
+			);
+			name = ChessAppUITests;
+			productName = ChessUITests;
+			productReference = 9AC00EB524DA411A008C1FA8 /* ChessAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC00E8C24DA4119008C1FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Ethan Ohayon";
+				TargetAttributes = {
+					9AC00E9324DA4119008C1FA8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9AC00EA924DA411A008C1FA8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9AC00E9324DA4119008C1FA8;
+					};
+					9AC00EB424DA411A008C1FA8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9AC00E9324DA4119008C1FA8;
+					};
+				};
+			};
+			buildConfigurationList = 9AC00E8F24DA4119008C1FA8 /* Build configuration list for PBXProject "ChessApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC00E8B24DA4119008C1FA8;
+			productRefGroup = 9AC00E9524DA4119008C1FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC00E9324DA4119008C1FA8 /* ChessApp */,
+				9AC00EA924DA411A008C1FA8 /* ChessAppTests */,
+				9AC00EB424DA411A008C1FA8 /* ChessAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC00E9224DA4119008C1FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC00EA424DA411A008C1FA8 /* LaunchScreen.storyboard in Resources */,
+				9AC00EA124DA411A008C1FA8 /* Assets.xcassets in Resources */,
+				9AC00E9F24DA4119008C1FA8 /* Main.storyboard in Resources */,
+				9A9208D024E215C8005BFBE5 /* Quicksand-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EA824DA411A008C1FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EB324DA411A008C1FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC00E9024DA4119008C1FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC00E9C24DA4119008C1FA8 /* ViewController.swift in Sources */,
+				9AC00E9824DA4119008C1FA8 /* AppDelegate.swift in Sources */,
+				9A9208D224E21F6C005BFBE5 /* BoardView.swift in Sources */,
+				E9240FDE24F6C6AF00DC0839 /* BTManager.swift in Sources */,
+				9AC00E9A24DA4119008C1FA8 /* SceneDelegate.swift in Sources */,
+				9A9208D424E22F4F005BFBE5 /* ChessPiece.swift in Sources */,
+				9AA6C79724F4726C002AB5A1 /* HomeViewController.swift in Sources */,
+				9A9208D624E22FC0005BFBE5 /* ChessEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EA624DA411A008C1FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC00EAF24DA411A008C1FA8 /* ChessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC00EB124DA411A008C1FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC00EBA24DA411A008C1FA8 /* ChessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC00EAC24DA411A008C1FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC00E9324DA4119008C1FA8 /* ChessApp */;
+			targetProxy = 9AC00EAB24DA411A008C1FA8 /* PBXContainerItemProxy */;
+		};
+		9AC00EB724DA411A008C1FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC00E9324DA4119008C1FA8 /* ChessApp */;
+			targetProxy = 9AC00EB624DA411A008C1FA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC00E9D24DA4119008C1FA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC00E9E24DA4119008C1FA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC00EA224DA411A008C1FA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC00EA324DA411A008C1FA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC00EBC24DA411A008C1FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC00EBD24DA411A008C1FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC00EBF24DA411A008C1FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 968NAXTD48;
+				INFOPLIST_FILE = Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sashaohayon.Chess;
+				PRODUCT_NAME = SmartChess;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AC00EC024DA411A008C1FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 968NAXTD48;
+				INFOPLIST_FILE = Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sashaohayon.Chess;
+				PRODUCT_NAME = SmartChess;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9AC00EC224DA411A008C1FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDM4DSFZWX;
+				INFOPLIST_FILE = ChessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethanohayon.ChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessApp.app/ChessApp";
+			};
+			name = Debug;
+		};
+		9AC00EC324DA411A008C1FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDM4DSFZWX;
+				INFOPLIST_FILE = ChessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethanohayon.ChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessApp.app/ChessApp";
+			};
+			name = Release;
+		};
+		9AC00EC524DA411A008C1FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDM4DSFZWX;
+				INFOPLIST_FILE = ChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethanohayon.ChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chess;
+			};
+			name = Debug;
+		};
+		9AC00EC624DA411A008C1FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XDM4DSFZWX;
+				INFOPLIST_FILE = ChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethanohayon.ChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC00E8F24DA4119008C1FA8 /* Build configuration list for PBXProject "ChessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC00EBC24DA411A008C1FA8 /* Debug */,
+				9AC00EBD24DA411A008C1FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC00EBE24DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC00EBF24DA411A008C1FA8 /* Debug */,
+				9AC00EC024DA411A008C1FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC00EC124DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC00EC224DA411A008C1FA8 /* Debug */,
+				9AC00EC324DA411A008C1FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC00EC424DA411A008C1FA8 /* Build configuration list for PBXNativeTarget "ChessAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC00EC524DA411A008C1FA8 /* Debug */,
+				9AC00EC624DA411A008C1FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC00E8C24DA4119008C1FA8 /* Project object */;
+}
