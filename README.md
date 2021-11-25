@@ -7,14 +7,14 @@ In my household, I am the only individual who enjoys playing Chess. Chess is an 
 
 SmartChess is a Bluetooth enabled, smart Chessboard. SmartChess utilizes an integrated circuit to recognize where there are pieces on the board. That information is sent to the accompanying app, which provides the user with a live view of the board. The app can give hints, recommend moves, and enforces legal moves. Development of a mode allowing play against an AI is in progress.
 
- <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/45DEG.jpg" width="45%" height="45%"> <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/IMG_8272.jpg?raw=true" width="45%" height="45%">
+ <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/45DEG.jpg" width="45%" height="45%"> <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/TOP.jpg" width="45%" height="45%">
 
 
 ## Circuit Design Process
 
 Before building the board and frame, the internal circuit was created. An 8x8 matrix of reed switches was soldered together, creating a logic circuit to detect magnetic pieces. This circuit, along with the Bluetooth module, and various other components, were soldered to the Arduino. C code was written for the Chessboard to function properly as a Bluetooth peripheral for the iOS app.
 
- <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/matrix.jpeg?raw=true" width="45%" height="45%"> <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/IMG_8186.jpg?raw=true" width="45%" height="45%">
+ <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/MATRIX.jpeg" width="45%" height="45%"> <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/ARDUINO.jpg" width="45%" height="45%">
  
  
 ## Mechanical Process
@@ -25,6 +25,6 @@ The entire board was handcrafted. The frame was built from walnut wood, and the 
 
 After building the board, I had to create an app that would make use of the raw data, and be intuitive for users. An iPhone app was written in Swift. The app connects the user to the board and receives the state of the board when a move is made. The app checks legality of moves, provides the user with hints, and records games for future reference. The app also allows the user to play against a computer player. The AI generates enemy moves using Stockfish (an open source chess engine). The enemy moves are displayed on the app and the player then moves the piece. This will allow players to play single player chess on a physical chessboard.
 
- <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/App1.png?raw=true" width="45%" height="45%"> <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/App2.png?raw=true" width="45%" height="45%">
+ <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/APP1.png" width="45%" height="45%"> <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/APP2.png" width="45%" height="45%">
 
 ### In this repository you will find pictures, code, CAD files and renderings. If you have any questions, please let me know.
