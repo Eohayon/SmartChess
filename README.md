@@ -5,7 +5,7 @@
 In my household, I am the only individual who enjoys playing Chess. Chess is an extremely strategic game that is completely void of luck, unlike many other boardgames. When playing Chess online, the feel of the game is completely different. Although I can see all of the pieces clearly, I find myself missing things more often, and overall my level of play is far worse. I have also asked many individuals why they do not play chess, and the answer I most often recieve is that it is too intimidating and the rules are easy to forget. I decided to solve these issues by creating a smart Chessboard that would allow physical play against a computer player, and make the game more intuitive for those that find chess intimidating.
 ## Overview
 
-SmartChess is a Bluetooth enabled, smart Chessboard. SmartChess utilizes an integrated circuit to recognize where there are pieces on the board. That information is sent to the accompanying app, which provides the user with a live view of the board. The app can give hints, recommend moves, and enforces legal moves. Development of a mode allowing play against an AI is in progress.
+SmartChess is a Bluetooth enabled, smart Chessboard. SmartChess utilizes an integrated circuit to recognize where there are pieces on the board. That information is sent to the accompanying app, which provides the user with a live view of the board. The app can give hints, recommend moves, and enforces legal moves. 
 
  <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/45DEG.jpg" width="45%" height="45%"> <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/TOP.jpg" width="45%" height="45%">
 
