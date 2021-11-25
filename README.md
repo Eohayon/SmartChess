@@ -7,7 +7,7 @@ In my household, I am the only individual who enjoys playing Chess. Chess is an 
 
 SmartChess is a Bluetooth enabled, smart Chessboard. SmartChess utilizes an integrated circuit to recognize where there are pieces on the board. That information is sent to the accompanying app, which provides the user with a live view of the board. The app can give hints, recommend moves, and enforces legal moves. Development of a mode allowing play against an AI is in progress.
 
- <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/IMG_8273.jpg?raw=true" width="45%" height="45%"> <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/IMG_8272.jpg?raw=true" width="45%" height="45%">
+ <img src="https://github.com/Eohayon/SmartChess/blob/main/Pictures/45DEG.jpg" width="45%" height="45%"> <img src="https://github.com/sohayon123/SmartChess/blob/master/Pictures/IMG_8272.jpg?raw=true" width="45%" height="45%">
 
 
 ## Circuit Design Process
